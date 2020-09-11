@@ -1,0 +1,16 @@
+html {
+  font-size: 10px;
+}
+.qulity {
+  margin: 10rem;
+  font-size: 1.6rem;
+  width: 10.1rem;
+  height: 10.1rem;
+  background: #0d8fe3;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+.qulity img {
+  margin-top: -2rem;
+}
