@@ -62,8 +62,8 @@ $('.feedback-slider').slick({
 })
 $('.feedbacktext-slider').slick({
   arrows:true,
-   prevArrow: "<img src='../images/feedback/prev-arrow.png' class='prev' alt='1'>",
-   nextArrow: "<img src='../images/feedback/next-arrow.png' class='next' alt='2'>",
+   prevArrow: "<img src='https://medkov77.github.io/saits/clean/images/feedback/prev-arrow.png' class='prev' alt='1'>",
+   nextArrow: "<img src='https://medkov77.github.io/saits/clean/images/feedback/next-arrow.png' class='next' alt='2'>",
    dots:false,
     autoplay:false,
     speed:1000,
