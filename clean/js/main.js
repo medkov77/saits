@@ -101,3 +101,4 @@ $('#myModal__close, #myOverlay').click( function(){
   });
 	
 });
+ 
