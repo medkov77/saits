@@ -15,8 +15,8 @@ $('.servis-slider').slick({
       slidesToScroll: 1,
       centerMode: true,
       centerPadding: '0px',
-      prevArrow: "<img src='../images/servis/prev.png' class='prev' alt='1'>",
-      nextArrow: "<img src='../images/servis/next.png' class='next' alt='2'>",
+      prevArrow: "<img src='/images/servis/prev.png' class='prev' alt='1'>",
+      nextArrow: "<img src='/images/servis/next.png' class='next' alt='2'>",
     		speed:1000,
 		autoplaySpeed:800,
 		responsive: [
