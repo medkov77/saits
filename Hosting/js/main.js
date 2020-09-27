@@ -46,7 +46,7 @@ $('.text-slider').slick({
     $('.burger,.menu,.nav,.btn').toggleClass('active');
   });
   $(".arrow").click(function() {
-    var elementClick = $(this).attr("href")
+    var elementClick = $(this).attr("href");
     var destination = $(elementClick).offset().top;
     jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1000);
     return false;
