@@ -29,7 +29,7 @@ $(document).ready(function() {
 $('.text-slider').slick({
   arrows:true,
    prevArrow: "<img src='https://medkov77.github.io/saits/Hosting/images/ic_outline-navigate-prev.svg' class='prev' alt='1'>",
-   nextArrow: "<img src='https://medkov77.github.io/saits/Hosting/images/ic_outline-navigate-next.svg' alt='2'>",
+   nextArrow: "<img src='https://medkov77.github.io/saits/Hosting/images/ic_outline-navigate-next.svg' class='next' alt='2'>",
    dots:false,
     autoplay:false,
     slidesToShow: 1,
