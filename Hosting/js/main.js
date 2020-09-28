@@ -28,8 +28,8 @@ $(document).ready(function() {
 })
 $('.text-slider').slick({
   arrows:true,
-   prevArrow: "<img src='../images/ic_outline-navigate-prev.svg' class='prev' alt='1'>",
-   nextArrow: "<img src='../images/ic_outline-navigate-next.svg' class='next' alt='2'>",
+   prevArrow: "<img src='Hosting/images/ic_outline-navigate-prev.svg' class='prev' alt='1'>",
+   nextArrow: "<img src='Hosting/images/ic_outline-navigate-next.svg' class='next' alt='2'>",
    dots:false,
     autoplay:false,
     slidesToShow: 1,
