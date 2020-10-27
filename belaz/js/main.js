@@ -1,20 +1,13 @@
 $(document).ready(function() {
-
   $('.trigger').click( function(event){
     event.preventDefault();
     $(this).siblings().fadeIn(297, function(){
-      
-
-
     });
         });
-
   $('.close').click( function(event){
     event.preventDefault();
     $('.fix').fadeOut(297);
         });
-
-
   $('.slider').slick({
   infinite: true,
   slidesToShow: 3,
@@ -32,13 +25,10 @@ $(document).ready(function() {
         breakpoint: 992,
         settings: {
           slidesToShow: 1,
-          
         }
       }
     ]
-
     });
-
     });
 
   
