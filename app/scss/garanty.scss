@@ -1,0 +1,52 @@
+.garanty{
+	padding: 100px 0;
+	&__title{
+		width: 745px;
+		margin: 0 auto 60px auto;
+	}
+	&__text{
+		margin: 0 auto 55px auto;
+		width: 600px;
+		color: #284157;
+		font-size: 20px;
+		text-align: center;
+	}
+	&__list{
+		background-image: url('../img/garanty/house-big.png');
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+	&__row{
+		padding-bottom: 75px;
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+
+	&__ul--left{
+		margin-top: 64px;
+		margin-left: 80px;
+		text-align: right;
+	}
+	&__ul--right{
+		margin-top: 17px;
+		margin-right: 150px;
+		
+	}
+	li{
+		list-style: none;
+		color: #284157;
+		font-size: 16px;
+		font-weight: 500;
+		text-decoration: underline;
+		
+	}
+	li+li{
+			margin-top: 85px;
+		}
+	a{
+		color: #284157;
+		font-family: Geometria_Medium;
+	}
+}
