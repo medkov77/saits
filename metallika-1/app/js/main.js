@@ -14,8 +14,8 @@ $('.slider-nav').slick({
   centerMode: true,
   centerPadding: '20px',
   focusOnSelect: true,
-  nextArrow: '<img src="../img/shop/next.svg" class="next" alt="1">',
-  prevArrow: '<img src="../img/shop/prev.svg" class="prev" alt="2">',
+  nextArrow: '<img src=".././img/shop/next.svg" class="next" alt="1">',
+  prevArrow: '<img src=".././img/shop/prev.svg" class="prev" alt="2">',
 });
 });
 
