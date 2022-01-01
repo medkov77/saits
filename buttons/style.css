@@ -1,0 +1,64 @@
+body {
+  font-family: "Arial";
+}
+button {
+  text-transform: uppercase;
+  font-family: "Arial";
+  height: 50px;
+  border-radius: 8px;
+  background-color: #cbf1f5;
+  outline: none;
+  border: none;
+  margin: 0 5px 5px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.active {
+  background-color: tomato;
+}
+.container {
+  height: 100vh;
+  background: url("/img/matrix.jpg");
+  padding: 100px 50px;
+  margin: 0 auto;
+}
+.overlay {
+  background-color: rgba(62, 68, 63, 0.9);
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.main-row {
+  display: flex;
+}
+.left-buttons {
+  width: 600px;
+  margin-right: 50px;
+}
+.right-buttons {
+}
+.fl {
+  flex: 2;
+}
+.up-buttons button {
+  width: 50%;
+}
+.up-buttons {
+  margin-bottom: 50px;
+}
+.middle-buttons {
+  margin-bottom: 50px;
+}
+.btn {
+  width: 50px;
+}
+.fix-width {
+  width: 50px;
+}
+.active-right {
+  background-color: #37ac64;
+}
