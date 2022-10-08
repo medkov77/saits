@@ -1,1 +1,1 @@
-# saits
+Static sites HTML, CSS, JS
